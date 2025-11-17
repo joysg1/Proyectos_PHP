@@ -1,0 +1,602 @@
+[
+    {
+        "id": 1,
+        "nombre": "Cristiano Ronaldo",
+        "pais": "Portugal",
+        "goles_totales": 850,
+        "partidos_jugados": 1186,
+        "promedio_goles": 0.72,
+        "debut": 2002,
+        "retirado": false,
+        "titulos": 34,
+        "balones_de_oro": 5,
+        "botas_de_oro": 4,
+        "tipos_goles": {
+            "pie_derecho": 445,
+            "pie_izquierdo": 156,
+            "cabeza": 110,
+            "penal": 139,
+            "tiro_libre": 58
+        },
+        "equipos": ["Sporting CP", "Manchester United", "Real Madrid", "Juventus", "Al Nassr"],
+        "competiciones": {
+            "liga": 512,
+            "champions": 140,
+            "copa": 45,
+            "seleccion": 128,
+            "otros": 25
+        },
+        "activo": true,
+        "logros": ["Máximo goleador histórico", "5 Champions League", "7 Botas de Oro"]
+    },
+    {
+        "id": 2,
+        "nombre": "Lionel Messi",
+        "pais": "Argentina",
+        "goles_totales": 821,
+        "partidos_jugados": 1041,
+        "promedio_goles": 0.79,
+        "debut": 2004,
+        "retirado": false,
+        "titulos": 44,
+        "balones_de_oro": 8,
+        "botas_de_oro": 6,
+        "tipos_goles": {
+            "pie_derecho": 22,
+            "pie_izquierdo": 665,
+            "cabeza": 26,
+            "penal": 108,
+            "tiro_libre": 61
+        },
+        "equipos": ["Barcelona", "PSG", "Inter Miami"],
+        "competiciones": {
+            "liga": 474,
+            "champions": 129,
+            "copa": 56,
+            "seleccion": 106,
+            "otros": 56
+        },
+        "activo": true,
+        "logros": ["Máximo goleador Barcelona", "World Cup 2022", "8 Balones de Oro"]
+    },
+    {
+        "id": 3,
+        "nombre": "Pelé",
+        "pais": "Brasil",
+        "goles_totales": 767,
+        "partidos_jugados": 831,
+        "promedio_goles": 0.92,
+        "debut": 1956,
+        "retirado": true,
+        "titulos": 26,
+        "balones_de_oro": 0,
+        "botas_de_oro": 0,
+        "tipos_goles": {
+            "pie_derecho": 510,
+            "pie_izquierdo": 157,
+            "cabeza": 100,
+            "penal": 0,
+            "tiro_libre": 70
+        },
+        "equipos": ["Santos", "New York Cosmos"],
+        "competiciones": {
+            "liga": 650,
+            "champions": 0,
+            "copa": 55,
+            "seleccion": 77,
+            "otros": 85
+        },
+        "activo": false,
+        "logros": ["3 Copas del Mundo", "Rey del Fútbol", "Máximo goleador Santos"]
+    },
+    {
+        "id": 4,
+        "nombre": "Romário",
+        "pais": "Brasil",
+        "goles_totales": 745,
+        "partidos_jugados": 945,
+        "promedio_goles": 0.79,
+        "debut": 1985,
+        "retirado": true,
+        "titulos": 25,
+        "balones_de_oro": 1,
+        "botas_de_oro": 0,
+        "tipos_goles": {
+            "pie_derecho": 520,
+            "pie_izquierdo": 185,
+            "cabeza": 40,
+            "penal": 65,
+            "tiro_libre": 15
+        },
+        "equipos": ["Vasco da Gama", "PSV", "Barcelona", "Flamengo"],
+        "competiciones": {
+            "liga": 465,
+            "champions": 22,
+            "copa": 89,
+            "seleccion": 55,
+            "otros": 114
+        },
+        "activo": false,
+        "logros": ["Copa del Mundo 1994", "Balón de Oro 1994", "Máximo goleador Vasco"]
+    },
+    {
+        "id": 5,
+        "nombre": "Ferenc Puskás",
+        "pais": "Hungría",
+        "goles_totales": 746,
+        "partidos_jugados": 754,
+        "promedio_goles": 0.99,
+        "debut": 1943,
+        "retirado": true,
+        "titulos": 18,
+        "balones_de_oro": 0,
+        "botas_de_oro": 0,
+        "tipos_goles": {
+            "pie_derecho": 15,
+            "pie_izquierdo": 700,
+            "cabeza": 31,
+            "penal": 25,
+            "tiro_libre": 15
+        },
+        "equipos": ["Budapest Honvéd", "Real Madrid"],
+        "competiciones": {
+            "liga": 514,
+            "champions": 35,
+            "copa": 49,
+            "seleccion": 84,
+            "otros": 64
+        },
+        "activo": false,
+        "logros": ["3 Copas de Europa", "Subcampeón Mundial 1954", "Leyenda del Real Madrid"]
+    },
+    {
+        "id": 6,
+        "nombre": "Gerd Müller",
+        "pais": "Alemania",
+        "goles_totales": 735,
+        "partidos_jugados": 793,
+        "promedio_goles": 0.93,
+        "debut": 1963,
+        "retirado": true,
+        "titulos": 15,
+        "balones_de_oro": 1,
+        "botas_de_oro": 2,
+        "tipos_goles": {
+            "pie_derecho": 450,
+            "pie_izquierdo": 150,
+            "cabeza": 135,
+            "penal": 75,
+            "tiro_libre": 5
+        },
+        "equipos": ["Bayern Munich"],
+        "competiciones": {
+            "liga": 365,
+            "champions": 62,
+            "copa": 78,
+            "seleccion": 68,
+            "otros": 162
+        },
+        "activo": false,
+        "logros": ["Copa del Mundo 1974", "Eurocopa 1972", "Máximo goleador Bayern"]
+    },
+    {
+        "id": 7,
+        "nombre": "Robert Lewandowski",
+        "pais": "Polonia",
+        "goles_totales": 630,
+        "partidos_jugados": 855,
+        "promedio_goles": 0.74,
+        "debut": 2006,
+        "retirado": false,
+        "titulos": 29,
+        "balones_de_oro": 2,
+        "botas_de_oro": 2,
+        "tipos_goles": {
+            "pie_derecho": 450,
+            "pie_izquierdo": 120,
+            "cabeza": 60,
+            "penal": 70,
+            "tiro_libre": 10
+        },
+        "equipos": ["Lech Poznań", "Borussia Dortmund", "Bayern Munich", "Barcelona"],
+        "competiciones": {
+            "liga": 412,
+            "champions": 92,
+            "copa": 58,
+            "seleccion": 82,
+            "otros": 46
+        },
+        "activo": true,
+        "logros": ["Máximo goleador Bundesliga", "6 veces pichichi", "Sepp Maier Trophy"]
+    },
+    {
+        "id": 8,
+        "nombre": "Raúl González",
+        "pais": "España",
+        "goles_totales": 386,
+        "partidos_jugados": 932,
+        "promedio_goles": 0.41,
+        "debut": 1994,
+        "retirado": true,
+        "titulos": 23,
+        "balones_de_oro": 0,
+        "botas_de_oro": 0,
+        "tipos_goles": {
+            "pie_derecho": 210,
+            "pie_izquierdo": 146,
+            "cabeza": 30,
+            "penal": 25,
+            "tiro_libre": 15
+        },
+        "equipos": ["Real Madrid", "Schalke 04", "Al Sadd", "New York Cosmos"],
+        "competiciones": {
+            "liga": 228,
+            "champions": 71,
+            "copa": 28,
+            "seleccion": 44,
+            "otros": 15
+        },
+        "activo": false,
+        "logros": ["3 Champions League", "6 Ligas", "Leyenda del Real Madrid"]
+    },
+    {
+        "id": 9,
+        "nombre": "Alfredo Di Stéfano",
+        "pais": "Argentina",
+        "goles_totales": 513,
+        "partidos_jugados": 702,
+        "promedio_goles": 0.73,
+        "debut": 1945,
+        "retirado": true,
+        "titulos": 28,
+        "balones_de_oro": 2,
+        "botas_de_oro": 0,
+        "tipos_goles": {
+            "pie_derecho": 280,
+            "pie_izquierdo": 183,
+            "cabeza": 50,
+            "penal": 35,
+            "tiro_libre": 25
+        },
+        "equipos": ["River Plate", "Millonarios", "Real Madrid"],
+        "competiciones": {
+            "liga": 347,
+            "champions": 49,
+            "copa": 44,
+            "seleccion": 29,
+            "otros": 44
+        },
+        "activo": false,
+        "logros": ["5 Copas de Europa", "8 Ligas", "Leyenda del Real Madrid"]
+    },
+    {
+        "id": 10,
+        "nombre": "Eusebio",
+        "pais": "Portugal",
+        "goles_totales": 623,
+        "partidos_jugados": 615,
+        "promedio_goles": 1.01,
+        "debut": 1957,
+        "retirado": true,
+        "titulos": 21,
+        "balones_de_oro": 1,
+        "botas_de_oro": 2,
+        "tipos_goles": {
+            "pie_derecho": 450,
+            "pie_izquierdo": 123,
+            "cabeza": 50,
+            "penal": 45,
+            "tiro_libre": 55
+        },
+        "equipos": ["Benfica"],
+        "competiciones": {
+            "liga": 320,
+            "champions": 46,
+            "copa": 64,
+            "seleccion": 41,
+            "otros": 152
+        },
+        "activo": false,
+        "logros": ["Balón de Oro 1965", "Máximo goleador Benfica", "Leyenda portuguesa"]
+    },
+    {
+        "id": 11,
+        "nombre": "Karim Benzema",
+        "pais": "Francia",
+        "goles_totales": 413,
+        "partidos_jugados": 842,
+        "promedio_goles": 0.49,
+        "debut": 2004,
+        "retirado": false,
+        "titulos": 27,
+        "balones_de_oro": 1,
+        "botas_de_oro": 0,
+        "tipos_goles": {
+            "pie_derecho": 280,
+            "pie_izquierdo": 93,
+            "cabeza": 40,
+            "penal": 35,
+            "tiro_libre": 15
+        },
+        "equipos": ["Lyon", "Real Madrid", "Al-Ittihad"],
+        "competiciones": {
+            "liga": 267,
+            "champions": 90,
+            "copa": 32,
+            "seleccion": 37,
+            "otros": 17
+        },
+        "activo": true,
+        "logros": ["5 Champions League", "Balón de Oro 2022", "Máximo goleador francés"]
+    },
+    {
+        "id": 12,
+        "nombre": "Zlatan Ibrahimović",
+        "pais": "Suecia",
+        "goles_totales": 573,
+        "partidos_jugados": 988,
+        "promedio_goles": 0.58,
+        "debut": 1999,
+        "retirado": true,
+        "titulos": 34,
+        "balones_de_oro": 0,
+        "botas_de_oro": 0,
+        "tipos_goles": {
+            "pie_derecho": 320,
+            "pie_izquierdo": 153,
+            "cabeza": 100,
+            "penal": 85,
+            "tiro_libre": 25
+        },
+        "equipos": ["Malmö", "Ajax", "Juventus", "Inter", "Barcelona", "Milan", "PSG", "Manchester United", "LA Galaxy"],
+        "competiciones": {
+            "liga": 392,
+            "champions": 48,
+            "copa": 58,
+            "seleccion": 62,
+            "otros": 33
+        },
+        "activo": false,
+        "logros": ["Gol del año 2013", "Máximo goleador sueco", "Leyenda del PSG"]
+    },
+    {
+        "id": 13,
+        "nombre": "Luis Suárez",
+        "pais": "Uruguay",
+        "goles_totales": 536,
+        "partidos_jugados": 852,
+        "promedio_goles": 0.63,
+        "debut": 2005,
+        "retirado": false,
+        "titulos": 19,
+        "balones_de_oro": 0,
+        "botas_de_oro": 2,
+        "tipos_goles": {
+            "pie_derecho": 380,
+            "pie_izquierdo": 106,
+            "cabeza": 50,
+            "penal": 45,
+            "tiro_libre": 15
+        },
+        "equipos": ["Nacional", "Groningen", "Ajax", "Liverpool", "Barcelona", "Atlético Madrid", "Gremio"],
+        "competiciones": {
+            "liga": 334,
+            "champions": 27,
+            "copa": 48,
+            "seleccion": 68,
+            "otros": 59
+        },
+        "activo": true,
+        "logros": ["Bota de Oro 2014", "Champions 2015", "Máximo goleador uruguayo"]
+    },
+    {
+        "id": 14,
+        "nombre": "Sergio Agüero",
+        "pais": "Argentina",
+        "goles_totales": 426,
+        "partidos_jugados": 786,
+        "promedio_goles": 0.54,
+        "debut": 2003,
+        "retirado": true,
+        "titulos": 21,
+        "balones_de_oro": 0,
+        "botas_de_oro": 0,
+        "tipos_goles": {
+            "pie_derecho": 320,
+            "pie_izquierdo": 76,
+            "cabeza": 30,
+            "penal": 25,
+            "tiro_libre": 5
+        },
+        "equipos": ["Independiente", "Atlético Madrid", "Manchester City", "Barcelona"],
+        "competiciones": {
+            "liga": 293,
+            "champions": 41,
+            "copa": 42,
+            "seleccion": 41,
+            "otros": 19
+        },
+        "activo": false,
+        "logros": ["Máximo goleador City", "5 Premier Leagues", "Gol del título 2012"]
+    },
+    {
+        "id": 15,
+        "nombre": "Gabriel Batistuta",
+        "pais": "Argentina",
+        "goles_totales": 359,
+        "partidos_jugados": 615,
+        "promedio_goles": 0.58,
+        "debut": 1988,
+        "retirado": true,
+        "titulos": 12,
+        "balones_de_oro": 0,
+        "botas_de_oro": 0,
+        "tipos_goles": {
+            "pie_derecho": 280,
+            "pie_izquierdo": 49,
+            "cabeza": 30,
+            "penal": 35,
+            "tiro_libre": 15
+        },
+        "equipos": ["Newell's", "River Plate", "Boca", "Fiorentina", "Roma", "Inter"],
+        "competiciones": {
+            "liga": 258,
+            "champions": 10,
+            "copa": 32,
+            "seleccion": 56,
+            "otros": 13
+        },
+        "activo": false,
+        "logros": ["Máximo goleador Fiorentina", "Serie A 2001", "Leyenda argentina"]
+    },
+    {
+        "id": 16,
+        "nombre": "Ronaldo Nazário",
+        "pais": "Brasil",
+        "goles_totales": 414,
+        "partidos_jugados": 616,
+        "promedio_goles": 0.67,
+        "debut": 1993,
+        "retirado": true,
+        "titulos": 15,
+        "balones_de_oro": 2,
+        "botas_de_oro": 0,
+        "tipos_goles": {
+            "pie_derecho": 320,
+            "pie_izquierdo": 64,
+            "cabeza": 30,
+            "penal": 25,
+            "tiro_libre": 5
+        },
+        "equipos": ["Cruzeiro", "PSV", "Barcelona", "Inter", "Real Madrid", "Milan", "Corinthians"],
+        "competiciones": {
+            "liga": 247,
+            "champions": 14,
+            "copa": 32,
+            "seleccion": 62,
+            "otros": 59
+        },
+        "activo": false,
+        "logros": ["2 Copas del Mundo", "2 Balones de Oro", "Fenómeno"]
+    },
+    {
+        "id": 17,
+        "nombre": "Thierry Henry",
+        "pais": "Francia",
+        "goles_totales": 411,
+        "partidos_jugados": 889,
+        "promedio_goles": 0.46,
+        "debut": 1994,
+        "retirado": true,
+        "titulos": 18,
+        "balones_de_oro": 0,
+        "botas_de_oro": 2,
+        "tipos_goles": {
+            "pie_derecho": 280,
+            "pie_izquierdo": 101,
+            "cabeza": 30,
+            "penal": 25,
+            "tiro_libre": 15
+        },
+        "equipos": ["Monaco", "Juventus", "Arsenal", "Barcelona", "New York Red Bulls"],
+        "competiciones": {
+            "liga": 258,
+            "champions": 59,
+            "copa": 32,
+            "seleccion": 51,
+            "otros": 21
+        },
+        "activo": false,
+        "logros": ["Copa del Mundo 1998", "Eurocopa 2000", "Leyenda del Arsenal"]
+    },
+    {
+        "id": 18,
+        "nombre": "Andriy Shevchenko",
+        "pais": "Ucrania",
+        "goles_totales": 432,
+        "partidos_jugados": 823,
+        "promedio_goles": 0.52,
+        "debut": 1994,
+        "retirado": true,
+        "titulos": 16,
+        "balones_de_oro": 1,
+        "botas_de_oro": 0,
+        "tipos_goles": {
+            "pie_derecho": 320,
+            "pie_izquierdo": 72,
+            "cabeza": 40,
+            "penal": 25,
+            "tiro_libre": 5
+        },
+        "equipos": ["Dynamo Kyiv", "Milan", "Chelsea"],
+        "competiciones": {
+            "liga": 253,
+            "champions": 59,
+            "copa": 42,
+            "seleccion": 48,
+            "otros": 30
+        },
+        "activo": false,
+        "logros": ["Balón de Oro 2004", "Champions 2003", "Máximo goleador ucraniano"]
+    },
+    {
+        "id": 19,
+        "nombre": "Alan Shearer",
+        "pais": "Inglaterra",
+        "goles_totales": 409,
+        "partidos_jugados": 733,
+        "promedio_goles": 0.56,
+        "debut": 1988,
+        "retirado": true,
+        "titulos": 1,
+        "balones_de_oro": 0,
+        "botas_de_oro": 1,
+        "tipos_goles": {
+            "pie_derecho": 300,
+            "pie_izquierdo": 69,
+            "cabeza": 40,
+            "penal": 65,
+            "tiro_libre": 5
+        },
+        "equipos": ["Southampton", "Blackburn", "Newcastle"],
+        "competiciones": {
+            "liga": 283,
+            "champions": 11,
+            "copa": 44,
+            "seleccion": 30,
+            "otros": 41
+        },
+        "activo": false,
+        "logros": ["Máximo goleador Premier", "Premier 1995", "Leyenda del Newcastle"]
+    },
+    {
+        "id": 20,
+        "nombre": "Ruud van Nistelrooy",
+        "pais": "Países Bajos",
+        "goles_totales": 399,
+        "partidos_jugados": 659,
+        "promedio_goles": 0.61,
+        "debut": 1993,
+        "retirado": true,
+        "titulos": 10,
+        "balones_de_oro": 0,
+        "botas_de_oro": 1,
+        "tipos_goles": {
+            "pie_derecho": 320,
+            "pie_izquierdo": 49,
+            "cabeza": 30,
+            "penal": 25,
+            "tiro_libre": 5
+        },
+        "equipos": ["Heerenveen", "PSV", "Manchester United", "Real Madrid", "Hamburgo"],
+        "competiciones": {
+            "liga": 249,
+            "champions": 60,
+            "copa": 32,
+            "seleccion": 35,
+            "otros": 33
+        },
+        "activo": false,
+        "logros": ["Bota de Oro 2003", "Máximo goleador United", "Leyenda holandesa"]
+    }
+]

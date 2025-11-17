@@ -1,0 +1,17 @@
+REPORTE DETALLADO DE GOLEADORES
+==================================================
+Fecha: 2025-11-17 15:32:11
+
+RESUMEN ESTADÍSTICO:
+------------------------------
+Total jugadores: 20
+Total goles: 11,188
+Promedio: 559.40 goles/jugador
+
+TOP 5 GOLEADORES:
+------------------------------
+1. Cristiano Ronaldo (Portugal): 850 goles
+2. Lionel Messi (Argentina): 821 goles
+3. Pelé (Brasil): 767 goles
+4. Ferenc Puskás (Hungría): 746 goles
+5. Romário (Brasil): 745 goles
