@@ -1,0 +1,107 @@
+<?php
+// Función para cargar los estados desde el JSON
+function cargarEstados($archivo) {
+    if (!file_exists($archivo)) {
+        return crearEstadosIniciales($archivo);
+    }
+    
+    $contenido = file_get_contents($archivo);
+    $estados = json_decode($contenido, true);
+    
+    if (json_last_error() !== JSON_ERROR_NONE || !is_array($estados)) {
+        return crearEstadosIniciales($archivo);
+    }
+    
+    return $estados;
+}
+
+// Función para restaurar los 50 estados originales
+function restaurarEstadosOriginales($archivo) {
+    $estados = [
+        ["id" => 1, "nombre" => "California", "region" => "Oeste", "poblacion" => 39538223, "capital" => "Sacramento"],
+        ["id" => 2, "nombre" => "Texas", "region" => "Sur", "poblacion" => 29145505, "capital" => "Austin"],
+        ["id" => 3, "nombre" => "Florida", "region" => "Sur", "poblacion" => 21538187, "capital" => "Tallahassee"],
+        ["id" => 4, "nombre" => "Nueva York", "region" => "Noreste", "poblacion" => 20201249, "capital" => "Albany"],
+        ["id" => 5, "nombre" => "Illinois", "region" => "Medio Oeste", "poblacion" => 12812508, "capital" => "Springfield"],
+        ["id" => 6, "nombre" => "Arizona", "region" => "Oeste", "poblacion" => 7151502, "capital" => "Phoenix"],
+        ["id" => 7, "nombre" => "Colorado", "region" => "Oeste", "poblacion" => 5773714, "capital" => "Denver"],
+        ["id" => 8, "nombre" => "Georgia", "region" => "Sur", "poblacion" => 10711908, "capital" => "Atlanta"],
+        ["id" => 9, "nombre" => "Michigan", "region" => "Medio Oeste", "poblacion" => 10077331, "capital" => "Lansing"],
+        ["id" => 10, "nombre" => "Washington", "region" => "Oeste", "poblacion" => 7705281, "capital" => "Olympia"],
+        ["id" => 11, "nombre" => "Ohio", "region" => "Medio Oeste", "poblacion" => 11799448, "capital" => "Columbus"],
+        ["id" => 12, "nombre" => "Carolina del Norte", "region" => "Sur", "poblacion" => 10439388, "capital" => "Raleigh"],
+        ["id" => 13, "nombre" => "Pennsylvania", "region" => "Noreste", "poblacion" => 13002700, "capital" => "Harrisburg"],
+        ["id" => 14, "nombre" => "Nueva Jersey", "region" => "Noreste", "poblacion" => 9288994, "capital" => "Trenton"],
+        ["id" => 15, "nombre" => "Virginia", "region" => "Sur", "poblacion" => 8631393, "capital" => "Richmond"],
+        ["id" => 16, "nombre" => "Massachusetts", "region" => "Noreste", "poblacion" => 7029917, "capital" => "Boston"],
+        ["id" => 17, "nombre" => "Tennessee", "region" => "Sur", "poblacion" => 6910840, "capital" => "Nashville"],
+        ["id" => 18, "nombre" => "Indiana", "region" => "Medio Oeste", "poblacion" => 6785528, "capital" => "Indianapolis"],
+        ["id" => 19, "nombre" => "Maryland", "region" => "Sur", "poblacion" => 6177224, "capital" => "Annapolis"],
+        ["id" => 20, "nombre" => "Wisconsin", "region" => "Medio Oeste", "poblacion" => 5893718, "capital" => "Madison"],
+        ["id" => 21, "nombre" => "Minnesota", "region" => "Medio Oeste", "poblacion" => 5706494, "capital" => "Saint Paul"],
+        ["id" => 22, "nombre" => "Misuri", "region" => "Medio Oeste", "poblacion" => 6154913, "capital" => "Jefferson City"],
+        ["id" => 23, "nombre" => "Carolina del Sur", "region" => "Sur", "poblacion" => 5118425, "capital" => "Columbia"],
+        ["id" => 24, "nombre" => "Alabama", "region" => "Sur", "poblacion" => 5024279, "capital" => "Montgomery"],
+        ["id" => 25, "nombre" => "Luisiana", "region" => "Sur", "poblacion" => 4657757, "capital" => "Baton Rouge"],
+        ["id" => 26, "nombre" => "Oregón", "region" => "Oeste", "poblacion" => 4237256, "capital" => "Salem"],
+        ["id" => 27, "nombre" => "Kentucky", "region" => "Sur", "poblacion" => 4505836, "capital" => "Frankfort"],
+        ["id" => 28, "nombre" => "Oklahoma", "region" => "Sur", "poblacion" => 3959353, "capital" => "Oklahoma City"],
+        ["id" => 29, "nombre" => "Connecticut", "region" => "Noreste", "poblacion" => 3605944, "capital" => "Hartford"],
+        ["id" => 30, "nombre" => "Utah", "region" => "Oeste", "poblacion" => 3271616, "capital" => "Salt Lake City"],
+        ["id" => 31, "nombre" => "Iowa", "region" => "Medio Oeste", "poblacion" => 3190369, "capital" => "Des Moines"],
+        ["id" => 32, "nombre" => "Nevada", "region" => "Oeste", "poblacion" => 3104614, "capital" => "Carson City"],
+        ["id" => 33, "nombre" => "Arkansas", "region" => "Sur", "poblacion" => 3011524, "capital" => "Little Rock"],
+        ["id" => 34, "nombre" => "Mississippi", "region" => "Sur", "poblacion" => 2961279, "capital" => "Jackson"],
+        ["id" => 35, "nombre" => "Kansas", "region" => "Medio Oeste", "poblacion" => 2937880, "capital" => "Topeka"],
+        ["id" => 36, "nombre" => "Nuevo México", "region" => "Oeste", "poblacion" => 2117522, "capital" => "Santa Fe"],
+        ["id" => 37, "nombre" => "Nebraska", "region" => "Medio Oeste", "poblacion" => 1961504, "capital" => "Lincoln"],
+        ["id" => 38, "nombre" => "Virginia Occidental", "region" => "Sur", "poblacion" => 1793716, "capital" => "Charleston"],
+        ["id" => 39, "nombre" => "Idaho", "region" => "Oeste", "poblacion" => 1839106, "capital" => "Boise"],
+        ["id" => 40, "nombre" => "Hawai", "region" => "Oeste", "poblacion" => 1455271, "capital" => "Honolulu"],
+        ["id" => 41, "nombre" => "Nuevo Hampshire", "region" => "Noreste", "poblacion" => 1377529, "capital" => "Concord"],
+        ["id" => 42, "nombre" => "Maine", "region" => "Noreste", "poblacion" => 1362359, "capital" => "Augusta"],
+        ["id" => 43, "nombre" => "Rhode Island", "region" => "Noreste", "poblacion" => 1097379, "capital" => "Providence"],
+        ["id" => 44, "nombre" => "Montana", "region" => "Oeste", "poblacion" => 1084225, "capital" => "Helena"],
+        ["id" => 45, "nombre" => "Delaware", "region" => "Sur", "poblacion" => 989948, "capital" => "Dover"],
+        ["id" => 46, "nombre" => "Alaska", "region" => "Oeste", "poblacion" => 733391, "capital" => "Juneau"],
+        ["id" => 47, "nombre" => "Dakota del Sur", "region" => "Medio Oeste", "poblacion" => 886667, "capital" => "Pierre"],
+        ["id" => 48, "nombre" => "Dakota del Norte", "region" => "Medio Oeste", "poblacion" => 779094, "capital" => "Bismarck"],
+        ["id" => 49, "nombre" => "Vermont", "region" => "Noreste", "poblacion" => 643077, "capital" => "Montpelier"],
+        ["id" => 50, "nombre" => "Wyoming", "region" => "Oeste", "poblacion" => 576851, "capital" => "Cheyenne"]
+    ];
+    
+    guardarEstados($archivo, $estados);
+    return $estados;
+}
+
+// Función para crear estados iniciales (versión reducida para pruebas)
+function crearEstadosIniciales($archivo) {
+    return restaurarEstadosOriginales($archivo);
+}
+
+// Función para guardar los estados
+function guardarEstados($archivo, $estados) {
+    file_put_contents($archivo, json_encode($estados, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+}
+
+// Función para generar nuevo ID
+function generarNuevoId($estados) {
+    $max_id = 0;
+    foreach ($estados as $estado) {
+        if (isset($estado['id']) && $estado['id'] > $max_id) {
+            $max_id = $estado['id'];
+        }
+    }
+    return $max_id + 1;
+}
+
+// Función para formatear población
+function formatearPoblacion($poblacion) {
+    if ($poblacion >= 1000000) {
+        return number_format($poblacion / 1000000, 1) . 'M';
+    } elseif ($poblacion >= 1000) {
+        return number_format($poblacion / 1000, 1) . 'K';
+    }
+    return $poblacion;
+}
+?>
