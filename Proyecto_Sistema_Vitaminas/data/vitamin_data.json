@@ -1,0 +1,74 @@
+[
+  {
+    "vitamina": "Vitamina B12",
+    "dosis_diaria": 50.0,
+    "duracion_semanas": 4,
+    "globulos_rojos_inicio": 4.2,
+    "globulos_rojos_fin": 5.1,
+    "edad_paciente": 45,
+    "sexo": "M"
+  },
+  {
+    "vitamina": "Hierro",
+    "dosis_diaria": 65.0,
+    "duracion_semanas": 6,
+    "globulos_rojos_inicio": 3.8,
+    "globulos_rojos_fin": 4.9,
+    "edad_paciente": 32,
+    "sexo": "F"
+  },
+  {
+    "vitamina": "Ácido Fólico",
+    "dosis_diaria": 40.0,
+    "duracion_semanas": 5,
+    "globulos_rojos_inicio": 4.5,
+    "globulos_rojos_fin": 5.3,
+    "edad_paciente": 28,
+    "sexo": "F"
+  },
+  {
+    "vitamina": "Vitamina C",
+    "dosis_diaria": 100.0,
+    "duracion_semanas": 3,
+    "globulos_rojos_inicio": 4.0,
+    "globulos_rojos_fin": 4.4,
+    "edad_paciente": 55,
+    "sexo": "M"
+  },
+  {
+    "vitamina": "Complejo B",
+    "dosis_diaria": 75.0,
+    "duracion_semanas": 4,
+    "globulos_rojos_inicio": 3.9,
+    "globulos_rojos_fin": 4.8,
+    "edad_paciente": 40,
+    "sexo": "M"
+  },
+  {
+    "vitamina": "Vitamina E",
+    "dosis_diaria": 30.0,
+    "duracion_semanas": 6,
+    "globulos_rojos_inicio": 4.3,
+    "globulos_rojos_fin": 4.7,
+    "edad_paciente": 35,
+    "sexo": "F"
+  },
+  {
+    "vitamina": "Vitamina B12",
+    "dosis_diaria": 60.0,
+    "duracion_semanas": 5,
+    "globulos_rojos_inicio": 4.1,
+    "globulos_rojos_fin": 5.2,
+    "edad_paciente": 50,
+    "sexo": "F"
+  },
+  {
+    "vitamina": "Hierro",
+    "dosis_diaria": 80.0,
+    "duracion_semanas": 4,
+    "globulos_rojos_inicio": 3.7,
+    "globulos_rojos_fin": 4.8,
+    "edad_paciente": 29,
+    "sexo": "F"
+  }
+]

@@ -1,0 +1,10 @@
+
+## Instrucciones de Uso
+
+1. **Ejecuta el script bash** para crear la estructura de archivos
+2. **Instala las dependencias** de Python con `pip install -r requirements.txt`
+3. **Inicia el backend**: `cd sistema_vitaminas/backend && python main.py`
+4. **Inicia el frontend**: `cd sistema_vitaminas/frontend && php -S localhost:8000`
+5. **Accede al sistema** en http://localhost:8000
+
+El sistema incluye datos de ejemplo y está listo para usar con todas las funcionalidades implementadas: gráficos interactivos, predicciones con ML, y una interfaz profesional con tema oscuro.
