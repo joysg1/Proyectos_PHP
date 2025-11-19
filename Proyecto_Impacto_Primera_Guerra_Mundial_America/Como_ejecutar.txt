@@ -1,0 +1,8 @@
+++ I: Arrancar el servidor de python en una terminal:
+--- python app.py (En la ruta correspondiente)
+
+++  II: Ejecutar el servidor de php en otra terminal:
+--- php -S localhost:8000
+
+++ III: Usar el navegador de preferencia y dirigirse a:
+--- http://localhost:8000

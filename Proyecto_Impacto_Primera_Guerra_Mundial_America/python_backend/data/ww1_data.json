@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "title": "Impacto Primera Guerra Mundial en América",
+    "period": "1914-1920",
+    "data_source": "Datos históricos compilados"
+  },
+  "countries": [
+    {
+      "name": "Estados Unidos",
+      "region": "Norteamérica",
+      "economic_data": {
+        "pre_war_gdp": 517,
+        "post_war_gdp": 680,
+        "exports_change": 245,
+        "industrial_production": 180
+      },
+      "social_data": {
+        "migration": 1250000,
+        "urbanization_rate": 12.5,
+        "war_participation": 2000000
+      },
+      "political_data": {
+        "neutrality_period": "1914-1917",
+        "war_declaration": "1917",
+        "treaty_participation": true
+      }
+    },
+    {
+      "name": "Argentina",
+      "region": "Sudamérica",
+      "economic_data": {
+        "pre_war_gdp": 24,
+        "post_war_gdp": 31,
+        "exports_change": 85,
+        "industrial_production": 45
+      },
+      "social_data": {
+        "migration": 450000,
+        "urbanization_rate": 8.2,
+        "war_participation": 0
+      },
+      "political_data": {
+        "neutrality_period": "1914-1918",
+        "war_declaration": null,
+        "treaty_participation": false
+      }
+    },
+    {
+      "name": "Brasil",
+      "region": "Sudamérica",
+      "economic_data": {
+        "pre_war_gdp": 21,
+        "post_war_gdp": 27,
+        "exports_change": 62,
+        "industrial_production": 55
+      },
+      "social_data": {
+        "migration": 320000,
+        "urbanization_rate": 7.8,
+        "war_participation": 1500
+      },
+      "political_data": {
+        "neutrality_period": "1914-1917",
+        "war_declaration": "1917",
+        "treaty_participation": true
+      }
+    },
+    {
+      "name": "México",
+      "region": "Norteamérica",
+      "economic_data": {
+        "pre_war_gdp": 18,
+        "post_war_gdp": 22,
+        "exports_change": 38,
+        "industrial_production": 42
+      },
+      "social_data": {
+        "migration": 280000,
+        "urbanization_rate": 6.5,
+        "war_participation": 0
+      },
+      "political_data": {
+        "neutrality_period": "1914-1918",
+        "war_declaration": null,
+        "treaty_participation": false
+      }
+    },
+    {
+      "name": "Canadá",
+      "region": "Norteamérica",
+      "economic_data": {
+        "pre_war_gdp": 32,
+        "post_war_gdp": 45,
+        "exports_change": 120,
+        "industrial_production": 95
+      },
+      "social_data": {
+        "migration": 180000,
+        "urbanization_rate": 10.2,
+        "war_participation": 620000
+      },
+      "political_data": {
+        "neutrality_period": "No aplica",
+        "war_declaration": "1914",
+        "treaty_participation": true
+      }
+    }
+  ],
+  "trade_data": [
+    {
+      "from": "Estados Unidos",
+      "to": "Reino Unido",
+      "value": 4500,
+      "category": "Manufacturas"
+    },
+    {
+      "from": "Estados Unidos",
+      "to": "Francia",
+      "value": 3200,
+      "category": "Manufacturas"
+    },
+    {
+      "from": "Argentina",
+      "to": "Reino Unido",
+      "value": 1800,
+      "category": "Alimentos"
+    },
+    {
+      "from": "Brasil",
+      "to": "Francia",
+      "value": 950,
+      "category": "Materias Primas"
+    },
+    {
+      "from": "Canadá",
+      "to": "Reino Unido",
+      "value": 2100,
+      "category": "Manufacturas"
+    }
+  ]
+}
