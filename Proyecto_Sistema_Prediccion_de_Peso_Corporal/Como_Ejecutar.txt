@@ -1,0 +1,7 @@
+++ Backend
+--- Ir a la carpeta backend y ejecutar:
+--- python app.py
+
+++ Frontend
+--- Ir a la carpeta frontend y ejecutar:
+--- php -S localhost:8000
