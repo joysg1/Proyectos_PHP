@@ -5,3 +5,6 @@
 ++ Frontend
 --- Ir a la carpeta frontend y ejecutar:
 --- php -S localhost:8000
+
+++ Navegador
+--- Abrir el navegador de preferencia y dirigirse a: http://localhost:8000/index.php
