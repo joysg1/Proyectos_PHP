@@ -1,0 +1,168 @@
+{
+  "paises": [
+    {
+      "id": 1,
+      "nombre": "Argentina",
+      "poblacion_2020": 45195777,
+      "poblacion_2021": 45605823,
+      "poblacion_2022": 46010234,
+      "poblacion_2023": 46409582,
+      "tasa_crecimiento": 0.93,
+      "densidad_poblacional": 16.5,
+      "expectativa_vida": 76.7,
+      "tasa_natalidad": 16.5,
+      "tasa_mortalidad": 7.4,
+      "migracion_neta": 0.6,
+      "poblacion_urbana": 92,
+      "poblacion_rural": 8,
+      "grupos_edad": {
+        "0_14": 24.3,
+        "15_64": 64.2,
+        "65_plus": 11.5
+      }
+    },
+    {
+      "id": 2,
+      "nombre": "Brasil",
+      "poblacion_2020": 212559417,
+      "poblacion_2021": 213993437,
+      "poblacion_2022": 215353593,
+      "poblacion_2023": 216664562,
+      "tasa_crecimiento": 0.72,
+      "densidad_poblacional": 25.4,
+      "expectativa_vida": 75.9,
+      "tasa_natalidad": 14.2,
+      "tasa_mortalidad": 6.6,
+      "migracion_neta": -0.1,
+      "poblacion_urbana": 87,
+      "poblacion_rural": 13,
+      "grupos_edad": {
+        "0_14": 21.1,
+        "15_64": 69.8,
+        "65_plus": 9.1
+      }
+    },
+    {
+      "id": 3,
+      "nombre": "México",
+      "poblacion_2020": 128932753,
+      "poblacion_2021": 130262216,
+      "poblacion_2022": 131562772,
+      "poblacion_2023": 132836238,
+      "tasa_crecimiento": 1.06,
+      "densidad_poblacional": 66.4,
+      "expectativa_vida": 75.1,
+      "tasa_natalidad": 17.8,
+      "tasa_mortalidad": 5.8,
+      "migracion_neta": -0.6,
+      "poblacion_urbana": 81,
+      "poblacion_rural": 19,
+      "grupos_edad": {
+        "0_14": 26.3,
+        "15_64": 65.7,
+        "65_plus": 8.0
+      }
+    },
+    {
+      "id": 4,
+      "nombre": "Colombia",
+      "poblacion_2020": 50882891,
+      "poblacion_2021": 51265841,
+      "poblacion_2022": 51644511,
+      "poblacion_2023": 52019327,
+      "tasa_crecimiento": 0.69,
+      "densidad_poblacional": 45.2,
+      "expectativa_vida": 77.3,
+      "tasa_natalidad": 15.8,
+      "tasa_mortalidad": 5.5,
+      "migracion_neta": -0.6,
+      "poblacion_urbana": 81,
+      "poblacion_rural": 19,
+      "grupos_edad": {
+        "0_14": 23.2,
+        "15_64": 68.4,
+        "65_plus": 8.4
+      }
+    },
+    {
+      "id": 5,
+      "nombre": "Chile",
+      "poblacion_2020": 19116201,
+      "poblacion_2021": 19139608,
+      "poblacion_2022": 19163172,
+      "poblacion_2023": 19186870,
+      "tasa_crecimiento": 0.14,
+      "densidad_poblacional": 25.3,
+      "expectativa_vida": 80.2,
+      "tasa_natalidad": 12.5,
+      "tasa_mortalidad": 6.1,
+      "migracion_neta": 0.3,
+      "poblacion_urbana": 88,
+      "poblacion_rural": 12,
+      "grupos_edad": {
+        "0_14": 19.8,
+        "15_64": 68.3,
+        "65_plus": 11.9
+      }
+    },
+    {
+      "id": 6,
+      "nombre": "Perú",
+      "poblacion_2020": 32971854,
+      "poblacion_2021": 33359416,
+      "poblacion_2022": 33745103,
+      "poblacion_2023": 34128855,
+      "tasa_crecimiento": 1.07,
+      "densidad_poblacional": 25.7,
+      "expectativa_vida": 76.8,
+      "tasa_natalidad": 17.8,
+      "tasa_mortalidad": 5.7,
+      "migracion_neta": -0.8,
+      "poblacion_urbana": 79,
+      "poblacion_rural": 21,
+      "grupos_edad": {
+        "0_14": 26.1,
+        "15_64": 65.7,
+        "65_plus": 8.2
+      }
+    }
+  ],
+  "proyecciones": [
+    {
+      "pais": "Argentina",
+      "2024": 46804567,
+      "2025": 47195201,
+      "2030": 49567823
+    },
+    {
+      "pais": "Brasil",
+      "2024": 217936789,
+      "2025": 219170453,
+      "2030": 227125674
+    },
+    {
+      "pais": "México",
+      "2024": 134082754,
+      "2025": 135302632,
+      "2030": 141256789
+    },
+    {
+      "pais": "Colombia",
+      "2024": 52390412,
+      "2025": 52757845,
+      "2030": 55234567
+    },
+    {
+      "pais": "Chile",
+      "2024": 19210701,
+      "2025": 19234675,
+      "2030": 19345678
+    },
+    {
+      "pais": "Perú",
+      "2024": 34509876,
+      "2025": 34888234,
+      "2030": 36789456
+    }
+  ]
+}
